@@ -1,5 +1,6 @@
 .container {
     max-resolution: 900px;
+    max-width: 75%;
     background: #fff;
     font-size: 24px;
     padding-bottom: 25px;
@@ -7,26 +8,61 @@
     border: transparent;
     margin: 0px;
     font-family: Calibri;
+    margin: auto;
+    color: rgba(46, 46, 44, 0.51);
 }
-body {
-    margin: 0px;
-}
-
-header {
-    box-sizing: border-box;
-    font-family: Calibri;
-    background: none !important;
-}
-
-ul {
-    font-family: Calibri;
-}
-
-
 .parallax{
     min-height: 500px;
     width: 100%;
     margin: 0px;
     background: transparent;
     border: transparent;
+    margin-top: -100px;
+    background: 50%,50%/cover;
 }
+
+header {
+    margin-top: 25px;
+    color: steelblue;
+    font-size: 30px;
+}
+
+header {
+    margin-top: 100px;
+    color: steelblue;
+    font-size: 30px;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: Calibri;
+}
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 11px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #d6d6d6;
+}
+li.right {
+    float: right;
+}
+li.logo {
+
+}
+
+h1 {
+    margin: 0;
+}
+
