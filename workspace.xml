@@ -8,13 +8,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1WinkJWHfrGcw0BQfd05Df7qA7g" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jacob\Desktop\Rocketry Website Rough\.idea" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jacob\Desktop\Rocketry Website Rough\.idea\img" />
       <recent name="C:\Users\jacob\Desktop\Rocketry Website Rough\.idea" />
     </key>
   </component>
@@ -50,7 +63,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579641427042</updated>
-      <workItem from="1579641434390" duration="9786000" />
+      <workItem from="1579641434390" duration="14256000" />
+      <workItem from="1579843027377" duration="6147000" />
+      <workItem from="1579896381674" duration="7765000" />
+      <workItem from="1579983607621" duration="12495000" />
     </task>
     <servers />
   </component>

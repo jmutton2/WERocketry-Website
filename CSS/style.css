@@ -1,3 +1,15 @@
+/*Page Wallpaper Stuff*/
+.parallax{
+    min-height: 700px;
+    width: 100%;
+    margin: 0px;
+    background: transparent;
+    border: transparent;
+    margin-top: -100px;
+    background: 50%,50%/cover;
+}
+
+/*General Layout Stuff*/
 .container {
     max-resolution: 900px;
     max-width: 75%;
@@ -11,16 +23,6 @@
     margin: auto;
     color: rgba(46, 46, 44, 0.51);
 }
-.parallax{
-    min-height: 700px;
-    width: 100%;
-    margin: 0px;
-    background: transparent;
-    border: transparent;
-    margin-top: -100px;
-    background: 50%,50%/cover;
-}
-
 header {
     margin-top: 100px;
     color: steelblue;
@@ -32,7 +34,23 @@ body {
 h1 {
     margin: 0;
 }
+hr {
+    background-color: rgba(46, 46, 44, 0.51);
+}
 
+.titletext {
+    height: 200px;
+    padding-top: 300px;
+    top: 0;
+    font-size: 75px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: white;
+    z-index: -1;
+}
+
+/*Navigation Bar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -40,6 +58,9 @@ ul {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.2);
     font-family: Calibri;
+}
+ul img {
+    position: absolute;
 }
 li a {
     display: block;
@@ -54,25 +75,110 @@ li a:hover {
 li.right {
     float: right;
 }
-img {
-    position: absolute;
-}
 
-.grid-container {
+/*Team Page Layout*/
+.grid-containerTeam {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
-    padding: 10px;
 }
-
-.grid-container > div {
+.grid-containerTeam {
+    /*> div*/
     background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
     text-align: center;
-
-    font-size: 30px;
 }
-
+.grid-containerTeam img {
+    margin-top: 10px;
+    text-align: center;
+}
+.grid-containerTeam p, h3 {
+    color: rgba(46, 46, 44, 0.51);
+    text-align: left;
+    padding-left: 15%;
+    margin: 0px
+}
 .item1 {
     grid-column: 1 / 2;
 }
 
+/*Bottom Quick Info*/
+.containerBottom {
+    background-color: rgba(0, 0, 0, 0.04);
+    margin: 0;
+    text-align: center;
+    color: rgba(46, 46, 44, 0.51);
+    padding: 50px;
+}
+
+/*Custom Scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.grid-containerContact {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    text-align: right;
+    grid-gap: 10px;
+}
+.grid-containerContact p{
+    color: rgba(46, 46, 44, 0.51);
+    text-align: left;
+    padding-left: 15%;
+    margin: 0px
+}
+.grid-containerContact .item2{
+    text-align: left;
+}
+
+#contact {
+    margin:4vh 0px !important;
+    padding:2vh 0px !important;
+    text-align: center;
+}
+#contact form {
+    width:100%;
+}
+#contact form input {
+    margin:20px 1%;
+    padding:8px 10px;
+    font-family: Calibri;
+    font-size:18px;
+    transition:0.4s ease-in-out;
+    color: #3c3f40;
+    text-align: center;
+}
+#contact form textarea {
+    width:90%;
+    padding:8px 10px;
+    padding:8px 10px;
+    font-family: Calibri;
+    font-size:18px;
+    transition:0.4s ease-in-out;
+    color: #3c3f40;
+    text-align: center;
+}
+
+.background .container{
+    max-width: 95%;
+    background: rgba(223, 215, 218, 0.11);
+    font-size: 24px;
+    padding-bottom: 25px;
+    border: none;
+    border: transparent;
+    margin: 0px;
+    font-family: Calibri;
+    margin: auto;
+    color: rgba(46, 46, 44, 0.51);
+}
